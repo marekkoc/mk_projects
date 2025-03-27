@@ -1,0 +1,19 @@
+{
+  "version": {"major": "1", "minor": "0", "patch": "0", "created": "2025.02.07", "modified": "2025.02.27"},
+  
+  "activities": [
+    {"name": "Rozwoj-osobisty", "color": "#9966cc", "grupa": "grupa-1"},
+    {"name": "Praca", "color": "#42b883", "grupa": "grupa-1"},
+    {"name": "Hobby", "color": "#ff9933", "grupa": "grupa-2"},
+    {"name": "Zdrowie", "color": "#a8c4fa", "grupa": "grupa-2"},
+    {"name": "Dokumenty", "color": "#ff9999", "grupa": "grupa-3"},
+    {"name": "Prace-domowe", "color": "#d6e4fd", "grupa": "grupa-3"},
+    {"name": "Posilek", "color": "#75a5f9", "grupa": "grupa-4"},
+    {"name": "Zakupy", "color": "#d6e4fd", "grupa": "grupa-4"},
+    {"name": "Zycie-towarzyskie", "color": "#ffb366", "grupa": "grupa-5"},
+    {"name": "Rozrywka", "color": "#ff6666", "grupa": "grupa-5"},
+    {"name": "Nic", "color": "#ff8080", "grupa": "grupa-6"},
+    {"name": "Inne", "color": "#ff8080", "grupa": "grupa-6"},
+    {"name": "Ja-promocja", "color": "#6fcc9c", "grupa": "grupa-7"}
+  ]
+}

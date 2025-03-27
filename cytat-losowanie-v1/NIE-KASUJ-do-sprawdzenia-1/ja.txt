@@ -1,0 +1,81 @@
+#
+# Moje przekonania
+#
+c:Przekonania # q:Dbam o to by codziennie rozmawiać z nieznajomymi ludźmi, nawiązywać nowe znajomości i relacje; by być bardziej śmiałym i otwartym w kontaktach z innymi.
+c:Przekonania # q:Dbam o to by codziennie pracować więcej i wydajniej!
+c:Przekonania # q:Dbam o to by codziennie być silniejszym, odważniejszym i pokonywać swoje słabości.
+c:Przekonania # q:Dbam o to by codziennie się uśmiechać, mieć dobry i pozytywny nastrój.
+c:Przekonania # q:Dbam o to by codziennie kontrolować swoje emocje.
+c:Przekonania # q:Dbam o to by codziennie lubić siebie coraz bardziej, akceptować siebie bardziej, być bardziej wyrozumiałym dla siebie.
+c:Przekonania # q:Dbam o to by robić jedną rzecz naraz. By być skoncentrowany tylko na bieżącym zadaniu.
+c:Przekonania # q:Dbam o to by doprowadzać do końca rzeczy które rozpocząłem.
+c:Przekonania # q:Dbam o to by być ciekawym drugiego człowieka i ciekawym siebie! 
+#
+# Wizualizacje
+#
+c:Wizualizacje # q:1. Chodzę na randki
+c:Wizualizacje # q:2. Jestem pewny siebie i zdecydowany
+c:Wizualizacje # q:3. Mam partnerkę, żonę
+c:Wizualizacje # q:4. Jestem głową rodziny
+c:Wizualizacje # q:5. Mam dom za miastem
+#
+# Nawyki klubu 555
+#
+c:Nawyki 555 # q:1. Zaczynaj każdy swój dzień z gotowym planem.
+c:Nawyki 555 # q:2. Bądź panem swoich emocji.
+c:Nawyki 555 # q:3. Praktykuj uważność.
+c:Nawyki 555 # q:4. Myśl o swoich pieniądzach.
+c:Nawyki 555 # q:5. Pracuj codziennie w ogrodzie swoich marzeń.
+c:Nawyki 555 # q:6. Bądź życzliwy dla świata.
+c:Nawyki 555 # q:7. Bądź zdyscyplinowany i wytrwały.
+c:Nawyki 555 # q:8. Wyznaczaj czas na indywidualne myślenie i rozwój.
+c:Nawyki 555 # q:9. Najpierw zrozum.
+c:Nawyki 555 # q:10. Podnoś samoocenę i asertywność.
+c:Nawyki 555 # q:11. Żyj proaktywnie.
+c:Nawyki 555 # q:12. Dbaj codziennie o swoje zdrowie.
+c:Nawyki 555 # q:13. Stosuj zasadę win — win i wykorzystuj synergię.
+#
+# Nawyki związane z rozwojem
+#
+c:Nawyki rozwoj # q:1. Myśl pozytywnie, wybaczaj, nie zachowuj ani nie żyw urazy
+c:Nawyki rozwoj # q:2. Codziennie stosuj wizualizacje i afirmacje
+c:Nawyki rozwoj # q:3. Codziennie przeglądaj dokumenty dotyczące rozwoju osobistego (lista nawyków, dziennik wdzięczności i dni wartych skatalogowania, zeszyt marzeń, . . .)
+c:Nawyki rozwoj # q:4. Codziennie poświęcaj czas na złotą godzinę mocy, myśl o sobie, rozmawiaj ze sobą!
+c:Nawyki rozwoj # q:5. Codziennie poświęcaj czas na przemyślenia i pisanie.
+c:Nawyki rozwoj # q:6. Codziennie ucz się czegoś, utrwalaj już zdobytą wiedzę, powtarzaj.
+#
+# Nawyki codzienne
+#
+c:Nawyki codzienne # q:1. Ucz się języka norweskiego lub angielskiego
+c:Nawyki codzienne # q:2. Pracuj trochę więcej, dłużej, lepiej, wydajniej. 
+c:Nawyki codzienne # q:3. Nie marnuj czasu, pracuj efektywniej. Kontroluj to na co idzie czas. Planuj swoją pracę. 
+c:Nawyki codzienne # q:4. Pracuj w IV ćwiartce, jedz żaby, rób tego czego nie lubisz
+c:Nawyki codzienne # q:5. Oswajaj się z dyskomfortem, rozszerzaj swoje granice
+c:Nawyki codzienne # q:6. Pracuj nad rutyną dnia – dbaj o to by działać zgodnie z planem
+c:Nawyki codzienne # q:7. Dbaj o sen! (wysypiaj się, minimum 7h snu)
+c:Nawyki codzienne # q:8. Dbaj o swoją energię. Ostrz piłę i ładuj akumulatory!
+c:Nawyki codzienne # q:9. Unikaj odżywek (kawy, zielonej herbaty, yerby)
+c:Nawyki codzienne # q:10. Nie pij alkoholu
+c:Nawyki codzienne # q:11. Dbaj o dietę
+c:Nawyki codzienne # q:12. Dbaj o finanse
+c:Nawyki codzienne # q:13. Dbaj o relacje z przyjaciółmi (Luca, Mia, ABT, Szymon, Zhanbolat, Meng-Yun, Asia B, Kasia Kaźmierczak)
+c:Nawyki codzienne # q:14. Uśmiechaj się
+c:Nawyki codzienne # q:15. Bądź tu i teraz!
+c:Nawyki codzienne # q:16. Codziennie coś posprzątaj, nawet kilka minut…
+c:Nawyki codzienne # q:17. Ćwicz pamięć! Zapamiętuj! Myśl kreatywnie, nie naśladuj. Powtarzaj to czego już się nauczyłeś!
+#
+# Nawyki tygodniowe
+#
+c:Nawyki tygodniowe  # q:1. Sprzątaj i wyrzucaj niepotrzebne rzeczy. (1h)
+c:Nawyki tygodniowe  # q:2. Czytaj o gotowaniu i dietach (1h)
+c:Nawyki tygodniowe  # q:3. Przeglądaj informacje o modzie (1h)
+c:Nawyki tygodniowe  # q:4. Czytaj o finansach i inwestowaniu (1h)
+c:Nawyki tygodniowe  # q:5. Zastanawiaj się nad swoim wartościami
+c:Nawyki tygodniowe  # q:6. Rozmawiaj ze sobą (1h)
+c:Nawyki tygodniowe  # q:7.  Porządkuj dyski [a) kopia zapasowa, b) porządkowanie zdjęć, c) przeglądanie materiałów, zmiana nazw]
+#
+# Nawyki ogolne
+#
+c:Nawyki ogolne # q:1. Czytaj biografie bogatych ludzi
+c:Nawyki ogolne # q:2. Bądź otwarty i śmiały w kontaktach z nieznajomymi. Rozmawiaj z obcymi ludźmi na ulicy
+c:Nawyki ogolne # q:3. Pracuj w kawiarniach i na świeżym powietrzu. Odwiedzaj kawiarnie językowe i chodź na MeetUpy. Bądź odważny w nawiązywaniu nowych kontakty i poznawaniu nowych ludzi.

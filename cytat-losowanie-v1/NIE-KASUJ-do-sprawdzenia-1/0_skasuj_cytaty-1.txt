@@ -1,0 +1,24 @@
+[
+    {   "quot": "Nie płacą Ci za to jak ciężko pracujesz, tylko jak trudny jesteś do zastąpienia!",
+        "date": "2023.05.22",
+        "src": "demotywatory.pl",
+        "category" : ["praca", "rady"],
+        "rating": 5  },
+        
+    {   "quot": "Give your studies time that they deserve!",
+        "author": "Rachel English",
+        "category" : ["nauka", "rady"],
+        "rating": 4  }, 
+        
+    {   "quot": "Nie patrz na kod, jak działa język programowania - patrz na wynik!", 
+         "author": "Arvid Lundervold",
+         "category": ["kodowanie", "nauka"] },
+    {
+         "quot": "Codziennie naucz się 4-5 nowych komend, które wydają ci się przydatne",
+         "author": "Jeremy Howard",
+         "category": ["kodowanie", "nauka"]}
+    
+       
+] 
+       
+       

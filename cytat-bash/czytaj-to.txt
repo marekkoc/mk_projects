@@ -1,0 +1,7 @@
+2025.03.18
+To jest główny katalog ze skryptem losującym cytaty ktore pojawiają się w konsoli bash!
+
+2025.03.01:
+drugi katalog do ktorego nalezy przeniesc kody gdy program bedzie juz ustabilizowany i dojrzaly:
+
+	/home/marek/biblioteka-repozytoriow/biblioteka-kodow/mk-projekty/dawka-motywacji

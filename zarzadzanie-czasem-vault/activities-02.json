@@ -1,0 +1,158 @@
+{ 
+"version": {"major": "2", "minor": "0", "patch": "1", "created": "2025.02.27", "modified": "2025.03.03"},
+ 
+"bloki_tematyczne": [
+    {
+      "id": 1,
+      "nazwa": "Blok Osobisty",
+      "kolor_podstawowy": "#4287f5",
+      "opis": "Czynności związane z dbaniem o siebie i podstawowe potrzeby",
+      "bloki_czasowe": [
+        {
+          "id": 1,
+          "nazwa": "Higiena/rutyny osobiste",
+          "opis": "Poranne i wieczorne czynności higieniczne, przygotowanie do dnia/snu",
+          "sugerowany_czas": "30-60 min",
+          "kolor": "#4287f5"
+        },
+        {
+          "id": 2,
+          "nazwa": "Posiłki",
+          "opis": "Śniadanie, obiad, kolacja i ewentualne przekąski",
+          "sugerowany_czas": "30 min na posiłek",
+          "kolor": "#75a5f9"
+        },
+        {
+          "id": 3,
+          "nazwa": "Aktywność fizyczna",
+          "opis": "Treningi, spacery, joga itp.",
+          "sugerowany_czas": "30-60 min",
+          "kolor": "#a8c4fa"
+        },
+        {
+          "id": 4,
+          "nazwa": "Obowiązki domowe",
+          "opis": "Sprzątanie, zakupy, gotowanie",
+          "sugerowany_czas": "zależne od zadania",
+          "kolor": "#d6e4fd"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nazwa": "Blok Produktywności",
+      "kolor_podstawowy": "#42b883",
+      "opis": "Zadania związane z pracą i rozwojem zawodowym",
+      "bloki_czasowe": [
+        {
+          "id": 5,
+          "nazwa": "Praca/nauka",
+          "opis": "Podzielone na konkretne zadania lub projekty",
+          "sugerowany_czas": "90-120 min bloki",
+          "kolor": "#42b883"
+        },
+        {
+          "id": 6,
+          "nazwa": "Moja marka",
+          "opis": "Tworzenie strony www, profilu LinkedIn, budowanie obecności w sieci",
+          "sugerowany_czas": "60-90 min",
+          "kolor": "#6fcc9c"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nazwa": "Blok Rozwojowy",
+      "kolor_podstawowy": "#9966cc",
+      "opis": "Aktywności związane z rozwojem osobistym i poszerzaniem wiedzy",
+      "bloki_czasowe": [
+        {
+          "id": 7,
+          "nazwa": "Rozwój osobisty",
+          "opis": "Czytanie, kursy, nauka nowych umiejętności",
+          "sugerowany_czas": "30-60 min",
+          "kolor": "#9966cc"
+        },
+        {
+          "id": 8,
+          "nazwa": "Newslettery",
+          "opis": "Czytanie i przeglądanie subskrybowanych treści",
+          "sugerowany_czas": "15-30 min",
+          "kolor": "#b191d9"
+        },
+        {
+          "id": 9,
+          "nazwa": "Spotkania rozwojowe",
+          "opis": "Spotkania zawodowe, szkolenia, mentoring",
+          "sugerowany_czas": "zależne od spotkania",
+          "kolor": "#c8b5e4"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nazwa": "Blok Czasu Wolnego",
+      "kolor_podstawowy": "#ff9933",
+      "opis": "Czas na relaks i przyjemności",
+      "bloki_czasowe": [
+        {
+          "id": 10,
+          "nazwa": "Czas wolny/rozrywka",
+          "opis": "Filmy, gry, hobby",
+          "sugerowany_czas": "zależne od aktywności",
+          "kolor": "#ff9933"
+        },
+        {
+          "id": 11,
+          "nazwa": "Spotkania towarzyskie",
+          "opis": "Spotkania z przyjaciółmi, rodziną, wydarzenia społeczne",
+          "sugerowany_czas": "zależne od spotkania",
+          "kolor": "#ffb366"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nazwa": "Blok Nieproduktywny",
+      "kolor_podstawowy": "#ff6666",
+      "opis": "Czynności administracyjne i potencjalne marnotrawstwo czasu",
+      "bloki_czasowe": [
+        {
+          "id": 12,
+          "nazwa": "Rozpraszacze/marnotrawstwo czasu",
+          "opis": "Przeglądanie mediów społecznościowych, wiadomości, nieproduktywne używanie multimediów",
+          "sugerowany_czas": "do monitorowania i ograniczania",
+          "kolor": "#ff6666"
+        },
+        {
+          "id": 13,
+          "nazwa": "Przerwy",
+          "opis": "Krótkie oddechy między zadaniami",
+          "sugerowany_czas": "10-15 min",
+          "kolor": "#ff8080"
+        },
+        {
+          "id": 14,
+          "nazwa": "E-maile/komunikacja",
+          "opis": "Odpowiadanie na wiadomości, zarządzanie skrzynką",
+          "sugerowany_czas": "30 min, 1-2 razy dziennie",
+          "kolor": "#ff9999"
+        },
+        {
+          "id": 15,
+          "nazwa": "Organizacja dnia",
+          "opis": "Planowanie, przegląd zadań, ustalanie priorytetów",
+          "sugerowany_czas": "15-30 min, najlepiej rano lub wieczorem",
+          "kolor": "#ffb3b3"
+        },
+        {
+          "id": 16,
+          "nazwa": "Finanse",
+          "opis": "Płacenie rachunków, budżetowanie, zarządzanie inwestycjami",
+          "sugerowany_czas": "30-60 min, najlepiej raz w tygodniu",
+          "kolor": "#ffcccc"
+        }
+      ]
+    }
+  ]
+}

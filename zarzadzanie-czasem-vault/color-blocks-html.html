@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paleta kolorów do kalendarza</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .card-header {
+      padding: 12px;
+      font-weight: 600;
+      color: white;
+    }
+    
+    .card-body {
+      padding: 16px;
+    }
+    
+    .color-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    
+    .color-swatch {
+      width: 48px;
+      height: 48px;
+      border-radius: 6px;
+      margin-right: 12px;
+    }
+    
+    .color-info {
+      flex: 1;
+    }
+    
+    .color-name {
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    
+    .color-description {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 4px;
+    }
+    
+    .color-code {
+      font-family: monospace;
+      font-size: 14px;
+    }
+    
+    .color-rgb {
+      font-size: 12px;
+      color: #777;
+    }
+    
+    .shades-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 16px 0 8px 0;
+    }
+    
+    .shades-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    
+    .shade-item {
+      display: flex;
+      align-items: center;
+    }
+    
+    .shade-swatch {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+    
+    .shade-info {
+      flex: 1;
+    }
+    
+    .shade-name {
+      font-size: 12px;
+      margin-bottom: 2px;
+    }
+    
+    .shade-code {
+      font-family: monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Przyporządkowanie kolorów do bloków tematycznych</h2>
+  
+  <div class="grid">
+    <!-- Blok 1: Osobiste -->
+    <div class="card">
+      <div class="card-header" style="background-color: #3498db;">
+        1. Osobiste
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #3498db;"></div>
+          <div class="color-info">
+            <div class="color-name">Osobiste</div>
+            <div class="color-description">Higiena</div>
+            <div class="color-code">#3498db</div>
+            <div class="color-rgb">RGB(52, 152, 219)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #9ac9f0;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#9ac9f0</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #51a7e0;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#51a7e0</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #2c81ba;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#2c81ba</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #236799;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#236799</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 2: Produktywność -->
+    <div class="card">
+      <div class="card-header" style="background-color: #2ecc71;">
+        2. Produktywność
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #2ecc71;"></div>
+          <div class="color-info">
+            <div class="color-name">Produktywność</div>
+            <div class="color-description">Praca, rozwój zawodowy</div>
+            <div class="color-code">#2ecc71</div>
+            <div class="color-rgb">RGB(46, 204, 113)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #97e6b8;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#97e6b8</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #53d48c;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#53d48c</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #27ad60;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#27ad60</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #208e4e;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#208e4e</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 3: Rozwój -->
+    <div class="card">
+      <div class="card-header" style="background-color: #9b59b6;">
+        3. Rozwój
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #9b59b6;"></div>
+          <div class="color-info">
+            <div class="color-name">Rozwój</div>
+            <div class="color-description">Czytanie, rozwój osobisty</div>
+            <div class="color-code">#9b59b6</div>
+            <div class="color-rgb">RGB(155, 89, 182)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #cda8db;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#cda8db</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #ac74c7;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#ac74c7</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #844c9b;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#844c9b</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #6d3e80;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#6d3e80</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 4: Zdrowie -->
+    <div class="card">
+      <div class="card-header" style="background-color: #e74c3c;">
+        4. Zdrowie
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #e74c3c;"></div>
+          <div class="color-info">
+            <div class="color-name">Zdrowie</div>
+            <div class="color-description">Siłka, PTX, spacery, drzemka</div>
+            <div class="color-code">#e74c3c</div>
+            <div class="color-rgb">RGB(231, 76, 60)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #f29f97;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#f29f97</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #eb6b5e;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#eb6b5e</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #c44133;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#c44133</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #a2352a;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#a2352a</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 5: Czas wolny -->
+    <div class="card">
+      <div class="card-header" style="background-color: #e67e22;">
+        5. Czas wolny
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #e67e22;"></div>
+          <div class="color-info">
+            <div class="color-name">Czas wolny</div>
+            <div class="color-description">Rozrywka, Hobby</div>
+            <div class="color-code">#e67e22</div>
+            <div class="color-rgb">RGB(230, 126, 34)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #f0b887;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#f0b887</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #ea934d;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#ea934d</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #c46b1d;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#c46b1d</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #a25818;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#a25818</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 6: Dokumenty -->
+    <div class="card">
+      <div class="card-header" style="background-color: #f1c40f;">
+        6. Dokumenty
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #f1c40f;"></div>
+          <div class="color-info">
+            <div class="color-name">Dokumenty</div>
+            <div class="color-description">Emaile, opłaty, faktury</div>
+            <div class="color-code">#f1c40f</div>
+            <div class="color-rgb">RGB(241, 196, 15)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #f7df83;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#f7df83</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #f3cf3a;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#f3cf3a</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #cda70d;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#cda70d</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #a8890a;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#a8890a</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 7: Multimedia -->
+    <div class="card">
+      <div class="card-header" style="background-color: #1abc9c;">
+        7. Multimedia
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #1abc9c;"></div>
+          <div class="color-info">
+            <div class="color-name">Multimedia</div>
+            <div class="color-description">YT, polityka</div>
+            <div class="color-code">#1abc9c</div>
+            <div class="color-rgb">RGB(26, 188, 156)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #8ddccf;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#8ddccf</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #3cc8af;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#3cc8af</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #17a085;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#17a085</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #13836d;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#13836d</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 8: Towarzyskie -->
+    <div class="card">
+      <div class="card-header" style="background-color: #fd79a8;">
+        8. Towarzyskie
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #fd79a8;"></div>
+          <div class="color-info">
+            <div class="color-name">Towarzyskie</div>
+            <div class="color-description">Spotkania</div>
+            <div class="color-code">#fd79a8</div>
+            <div class="color-rgb">RGB(253, 121, 168)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #feb8d1;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#feb8d1</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #fd8fb7;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#fd8fb7</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #d7678f;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#d7678f</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #b15576;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#b15576</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 9: Jedzenie -->
+    <div class="card">
+      <div class="card-header" style="background-color: #16a085;">
+        9. Jedzenie
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #16a085;"></div>
+          <div class="color-info">
+            <div class="color-name">Jedzenie</div>
+            <div class="color-description">Posiłki, zakupy</div>
+            <div class="color-code">#16a085</div>
+            <div class="color-rgb">RGB(22, 160, 133)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #88d1c0;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#88d1c0</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #37b39b;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#37b39b</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #138871;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#138871</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #0f705e;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#0f705e</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blok 10: Moja marka -->
+    <div class="card">
+      <div class="card-header" style="background-color: #2c3e50;">
+        10. Moja marka
+      </div>
+      <div class="card-body">
+        <div class="color-box">
+          <div class="color-swatch" style="background-color: #2c3e50;"></div>
+          <div class="color-info">
+            <div class="color-name">Moja marka</div>
+            <div class="color-description">Strona internetowa, praca</div>
+            <div class="color-code">#2c3e50</div>
+            <div class="color-rgb">RGB(44, 62, 80)</div>
+          </div>
+        </div>
+        
+        <div class="shades-title">Proponowane odcienie dla czynności:</div>
+        <div class="shades-grid">
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #95a5a6;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo jasny odcień</div>
+              <div class="shade-code">#95a5a6</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #4e6378;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Jasny odcień</div>
+              <div class="shade-code">#4e6378</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #253544;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Ciemny odcień</div>
+              <div class="shade-code">#253544</div>
+            </div>
+          </div>
+          <div class="shade-item">
+            <div class="shade-swatch" style="background-color: #1f2c38;"></div>
+            <div class="shade-info">
+              <div class="shade-name">Bardzo ciemny odcień</div>
+              <div class="shade-code">#1f2c38</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

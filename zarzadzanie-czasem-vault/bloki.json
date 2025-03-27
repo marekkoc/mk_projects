@@ -1,0 +1,12 @@
+{
+    "version":{"major": 0, "minor": 0, "patch": 1, "created": "2025-03-03", "modified": "2025-03-05"},
+    "bloki": [
+        {"id":1,"nazwa":"Osobitste","opis":"Higiena, Posiłki, zakupy, sprzatanie","kolor": "#4287f5"},
+        {"id":2,"nazwa":"Produktywność","opis":"Praca, rozwój zawodowy, moja marka","kolor": "#42b883"},
+        {"id":3,"nazwa":"Rozwój","opis":"Czytanie, rozwój osobisty","kolor": "#9966cc"},
+        {"id":4,"nazwa":"Zdrowie","opis":"Siłka, PTX, spacery, drzemka","kolor": "#f5a623"},
+        {"id":5,"nazwa":"Czas wolny","opis":"Rozrywka, Hobby, YT, polityka","kolor": "#f5236f"},
+        {"id":6,"nazwa":"Dokumenty","opis":"Emaile, opłaty, faktury","kolor": "#f5a623"},
+        {"id":7,"nazwa":"Towarzyskie","opis":"Spotkania towarzyskie, spotkania sluzbowe, rodzina, mama-iwonka","kolor": "#f5a623"}, 
+    ]
+}

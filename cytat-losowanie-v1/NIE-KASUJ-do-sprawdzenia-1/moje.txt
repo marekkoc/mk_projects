@@ -1,0 +1,83 @@
+﻿*************************** 2023.05.22
+q:
+a:
+d:
+s:
+c:
+r:
+***************************
+q:Życie jest tym co się wydarza, gdy jesteś zajęty snuciem planów
+a:John Lenoski (?)
+c:czas, dobre rady, styl zycia, planowanie
+r:1
+***************************
+q:Jak mam pomysł to działam od razu, nie odwlekam!!!
+a:Marek Kocinski
+d:2023
+c:aktywność, męskość,samodyscyplina
+r:1
+***************************
+q:Dobry plan konsekwentnie wykonany dzisiaj, jest lepszy niż idealny plan wykonany jutro.
+a:George Patton
+d:2023
+c:planowanie,samodyscyplina
+r:3
+***************************
+q: Nie obawiaj się kroczenia naprzód powoli. Obawiaj się stania w miejscu.
+a:przysłowie japońskie
+d:2023
+s:
+c:rozwój, praca, wydajność
+r:1
+***************************
+c: Nie patrz na kod, nie patrz jak działa program, ale patrz na wynik
+a: Arvid Lundervold
+d: 2022
+c: nauka, kodowanie
+r:4
+***************************
+q:Give your studies time that they deserve
+a:Rachel English
+d:2023
+c: nauka
+r:3
+***************************
+q:Nie płacą ci za to jak ciężko pracujesz, tyko jak trudny jesteś do zastąpienia
+d:2023
+s:demotywatory.pl
+c:dobre rady, praca
+r:5
+***************************
+q: Ucz się codziennie 4-5 nowych komend/słów które wydają ci się przydatne
+a: Jeremy Howard
+c:nauka, norweski, kodowanie
+r:1
+***************************
+q:Gdy przekazujemy męską inicjatywę kobiecie – oddajemy jej ducha bogini i przez to sami go tracimy
+a:Steve Biddulph
+d:2023
+s:Męskość s.104
+c: męskość, relacje
+r:4
+***************************
+q:Działanie jest męskie! Mężczyzna działa!
+a:Steve Biddulph
+d:2023
+s:Męskość s.104
+c:męskość, relacje
+r:4
+***************************
+q:Porządanie nie ma żródła w wyglądzie partnerki, lecz w sposobie w jaki my ją postrzegamy.
+a:Steve Biddulph
+d:2023
+s:Męskość s.104
+c:męskość, relacja
+r:5
+***************************
+c:
+a:
+d:
+s:
+c:
+r:
+***************************
