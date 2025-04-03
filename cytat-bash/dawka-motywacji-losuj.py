@@ -21,7 +21,7 @@ from mkquotes import (
 
 # 2025.03.20
 quote_selector = QuoteSelector()
-quote_selector.set_json_loader(JsonLoader(FilePaths("52-notatki", create="json")))
+quote_selector.set_json_loader(JsonLoader(FilePaths("dawka-motywacji", create="json")))
 quote = quote_selector.random_quote()
 print(f"{quote.tekst}\n  ** {quote.autor} **  ({quote.id})")
 
