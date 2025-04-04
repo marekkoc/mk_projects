@@ -1,6 +1,6 @@
 {
   "created_at": "2025-02-27T15:36:49.288927",
-  "updated_at": "2025-04-03T21:35:18.838562",
+  "updated_at": "2025-04-05T00:34:11.742935",
   "days": {
     "2025-02-27": {
       "Prace-domowe": [
@@ -3856,6 +3856,120 @@
       ]
     },
     "2025-04-04": {
+      "Prace-domowe": [
+        {"row": 9, "col": 0},
+        {"row": 9, "col": 1},
+        {"row": 9, "col": 2},
+        {"row": 14, "col": 2},
+        {"row": 23, "col": 5}
+      ],
+      "Dokumenty": [
+        {"row": 9, "col": 3},
+        {"row": 9, "col": 5},
+        {"row": 10, "col": 4},
+        {"row": 10, "col": 5},
+        {"row": 11, "col": 0},
+        {"row": 11, "col": 1},
+        {"row": 11, "col": 2}
+      ],
+      "Posilek": [
+        {"row": 9, "col": 4},
+        {"row": 12, "col": 5},
+        {"row": 13, "col": 0},
+        {"row": 13, "col": 1},
+        {"row": 13, "col": 2},
+        {"row": 13, "col": 3},
+        {"row": 13, "col": 4},
+        {"row": 13, "col": 5},
+        {"row": 16, "col": 1},
+        {"row": 16, "col": 2},
+        {"row": 19, "col": 3},
+        {"row": 19, "col": 4},
+        {"row": 19, "col": 5}
+      ],
+      "Rozrywka": [
+        {"row": 10, "col": 0},
+        {"row": 10, "col": 1},
+        {"row": 10, "col": 2},
+        {"row": 10, "col": 3},
+        {"row": 14, "col": 0},
+        {"row": 14, "col": 1},
+        {"row": 20, "col": 1},
+        {"row": 20, "col": 2},
+        {"row": 20, "col": 3},
+        {"row": 20, "col": 4},
+        {"row": 20, "col": 5}
+      ],
+      "Praca": [
+        {"row": 11, "col": 3},
+        {"row": 11, "col": 4},
+        {"row": 11, "col": 5},
+        {"row": 12, "col": 0},
+        {"row": 12, "col": 1},
+        {"row": 12, "col": 2},
+        {"row": 12, "col": 3},
+        {"row": 12, "col": 4},
+        {"row": 14, "col": 3},
+        {"row": 14, "col": 4},
+        {"row": 14, "col": 5},
+        {"row": 15, "col": 0},
+        {"row": 15, "col": 1},
+        {"row": 15, "col": 2},
+        {"row": 15, "col": 3},
+        {"row": 15, "col": 4},
+        {"row": 15, "col": 5},
+        {"row": 16, "col": 0},
+        {"row": 16, "col": 3},
+        {"row": 16, "col": 4},
+        {"row": 16, "col": 5},
+        {"row": 21, "col": 0},
+        {"row": 21, "col": 1},
+        {"row": 21, "col": 2},
+        {"row": 21, "col": 3},
+        {"row": 23, "col": 2},
+        {"row": 23, "col": 3},
+        {"row": 23, "col": 4}
+      ],
+      "Nic": [
+        {"row": 17, "col": 0},
+        {"row": 17, "col": 1},
+        {"row": 17, "col": 2},
+        {"row": 17, "col": 3},
+        {"row": 17, "col": 4},
+        {"row": 17, "col": 5},
+        {"row": 20, "col": 0}
+      ],
+      "Zdrowie": [
+        {"row": 18, "col": 0},
+        {"row": 18, "col": 1},
+        {"row": 18, "col": 2},
+        {"row": 18, "col": 3},
+        {"row": 18, "col": 4},
+        {"row": 18, "col": 5},
+        {"row": 19, "col": 0},
+        {"row": 19, "col": 1},
+        {"row": 19, "col": 2}
+      ],
+      "Zycie-towarzyskie": [
+        {"row": 21, "col": 4},
+        {"row": 21, "col": 5},
+        {"row": 22, "col": 0},
+        {"row": 22, "col": 1},
+        {"row": 22, "col": 2},
+        {"row": 22, "col": 3},
+        {"row": 22, "col": 4},
+        {"row": 22, "col": 5},
+        {"row": 23, "col": 0},
+        {"row": 23, "col": 1}
+      ]
+    },
+    "2025-04-05": {
+      "Praca": [
+        {"row": 0, "col": 0},
+        {"row": 0, "col": 1},
+        {"row": 0, "col": 2},
+        {"row": 0, "col": 3}
+      ]
     }
   }
 }
