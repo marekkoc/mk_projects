@@ -1,6 +1,6 @@
 {
   "created_at": "2025-02-27T15:36:49.288927",
-  "updated_at": "2025-04-05T00:34:11.742935",
+  "updated_at": "2025-04-05T22:51:54.051036",
   "days": {
     "2025-02-27": {
       "Prace-domowe": [
@@ -3969,7 +3969,91 @@
         {"row": 0, "col": 1},
         {"row": 0, "col": 2},
         {"row": 0, "col": 3}
+      ],
+      "Prace-domowe": [
+        {"row": 9, "col": 3},
+        {"row": 9, "col": 4},
+        {"row": 9, "col": 5},
+        {"row": 10, "col": 0},
+        {"row": 12, "col": 0},
+        {"row": 14, "col": 0},
+        {"row": 14, "col": 1},
+        {"row": 17, "col": 2}
+      ],
+      "Dokumenty": [
+        {"row": 10, "col": 1},
+        {"row": 10, "col": 2},
+        {"row": 11, "col": 0},
+        {"row": 11, "col": 1},
+        {"row": 11, "col": 2}
+      ],
+      "Rozrywka": [
+        {"row": 10, "col": 3},
+        {"row": 10, "col": 4},
+        {"row": 10, "col": 5},
+        {"row": 12, "col": 3},
+        {"row": 12, "col": 4},
+        {"row": 12, "col": 5},
+        {"row": 15, "col": 0},
+        {"row": 15, "col": 1},
+        {"row": 20, "col": 0},
+        {"row": 20, "col": 1},
+        {"row": 20, "col": 2}
+      ],
+      "Zycie-towarzyskie": [
+        {"row": 11, "col": 3},
+        {"row": 12, "col": 1},
+        {"row": 12, "col": 2}
+      ],
+      "Rozwoj-osobisty": [
+        {"row": 11, "col": 4},
+        {"row": 11, "col": 5},
+        {"row": 14, "col": 2},
+        {"row": 14, "col": 3},
+        {"row": 14, "col": 4},
+        {"row": 14, "col": 5}
+      ],
+      "Posilek": [
+        {"row": 13, "col": 0},
+        {"row": 13, "col": 1},
+        {"row": 13, "col": 2},
+        {"row": 13, "col": 3},
+        {"row": 13, "col": 4},
+        {"row": 13, "col": 5},
+        {"row": 16, "col": 0},
+        {"row": 16, "col": 1},
+        {"row": 16, "col": 2}
+      ],
+      "Zakupy": [
+        {"row": 15, "col": 2},
+        {"row": 15, "col": 3},
+        {"row": 15, "col": 4},
+        {"row": 15, "col": 5}
+      ],
+      "Zdrowie": [
+        {"row": 16, "col": 3},
+        {"row": 16, "col": 4},
+        {"row": 16, "col": 5},
+        {"row": 17, "col": 0},
+        {"row": 17, "col": 1},
+        {"row": 17, "col": 3},
+        {"row": 17, "col": 4},
+        {"row": 17, "col": 5},
+        {"row": 18, "col": 0},
+        {"row": 18, "col": 1},
+        {"row": 18, "col": 2},
+        {"row": 18, "col": 3},
+        {"row": 18, "col": 4},
+        {"row": 18, "col": 5},
+        {"row": 19, "col": 0},
+        {"row": 19, "col": 1},
+        {"row": 19, "col": 2},
+        {"row": 19, "col": 3},
+        {"row": 19, "col": 4},
+        {"row": 19, "col": 5}
       ]
+    },
+    "2025-04-06": {
     }
   }
 }
