@@ -1,6 +1,6 @@
 {
   "created_at": "2025-02-27T15:36:49.288927",
-  "updated_at": "2025-04-24T10:34:16.575178",
+  "updated_at": "2025-04-24T20:26:06.681387",
   "days": {
     "2025-02-27": {
       "Prace-domowe": [
@@ -5898,6 +5898,88 @@
       ]
     },
     "2025-04-24": {
+      "Prace-domowe": [
+        {"row": 10, "col": 0},
+        {"row": 10, "col": 1},
+        {"row": 11, "col": 0},
+        {"row": 11, "col": 1},
+        {"row": 11, "col": 2},
+        {"row": 11, "col": 3},
+        {"row": 11, "col": 4},
+        {"row": 11, "col": 5}
+      ],
+      "Dokumenty": [
+        {"row": 10, "col": 2},
+        {"row": 10, "col": 3},
+        {"row": 18, "col": 3},
+        {"row": 18, "col": 4},
+        {"row": 18, "col": 5},
+        {"row": 19, "col": 0},
+        {"row": 19, "col": 1},
+        {"row": 19, "col": 2},
+        {"row": 19, "col": 3}
+      ],
+      "Posilek": [
+        {"row": 10, "col": 4},
+        {"row": 10, "col": 5},
+        {"row": 15, "col": 0},
+        {"row": 15, "col": 1},
+        {"row": 15, "col": 2}
+      ],
+      "Rozwoj-osobisty": [
+        {"row": 12, "col": 0},
+        {"row": 12, "col": 1},
+        {"row": 12, "col": 2},
+        {"row": 12, "col": 3},
+        {"row": 12, "col": 4},
+        {"row": 12, "col": 5}
+      ],
+      "Zdrowie": [
+        {"row": 13, "col": 0},
+        {"row": 13, "col": 1},
+        {"row": 13, "col": 2},
+        {"row": 14, "col": 0},
+        {"row": 14, "col": 1},
+        {"row": 14, "col": 2},
+        {"row": 17, "col": 2},
+        {"row": 17, "col": 3},
+        {"row": 17, "col": 4},
+        {"row": 17, "col": 5},
+        {"row": 18, "col": 0},
+        {"row": 18, "col": 1},
+        {"row": 18, "col": 2},
+        {"row": 20, "col": 3},
+        {"row": 20, "col": 4},
+        {"row": 20, "col": 5},
+        {"row": 21, "col": 0},
+        {"row": 21, "col": 1},
+        {"row": 21, "col": 2},
+        {"row": 21, "col": 3},
+        {"row": 21, "col": 4},
+        {"row": 21, "col": 5}
+      ],
+      "Zycie-towarzyskie": [
+        {"row": 13, "col": 3},
+        {"row": 13, "col": 4},
+        {"row": 13, "col": 5}
+      ],
+      "Zakupy": [
+        {"row": 14, "col": 3},
+        {"row": 14, "col": 4},
+        {"row": 14, "col": 5}
+      ],
+      "Rozrywka": [
+        {"row": 15, "col": 3},
+        {"row": 15, "col": 4},
+        {"row": 15, "col": 5},
+        {"row": 19, "col": 4},
+        {"row": 19, "col": 5},
+        {"row": 20, "col": 0},
+        {"row": 20, "col": 1},
+        {"row": 20, "col": 2}
+      ]
+    },
+    "2025-04-25": {
     }
   }
 }
