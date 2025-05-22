@@ -1,0 +1,21 @@
+name: pdf_converter
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pyqt=5.15
+  - pandas
+  - openpyxl
+  - markdown
+  - dash
+  - dash-bootstrap-components
+  - dash-daq
+  - plotly
+  - pip
+  - pip:
+    - pymupdf==1.22.1
+    - markdown2
+    - beautifulsoup4
+    - lxml
