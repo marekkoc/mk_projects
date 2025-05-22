@@ -1,0 +1,9 @@
+projekt/
+  ├── app.py            # Główny plik aplikacji
+  ├── data_loader.py    # Funkcje wczytujące dane
+  ├── tabs/             # Katalog z zakładkami
+  │   ├── __init__.py   # Pusty plik inicjalizujący pakiet
+  │   ├── medication.py # Zakładka z poborem leku
+  │   ├── blood_test.py # Zakładka z badaniami krwi
+  │   └── data_tabs.py  # Zakładka z tabelami danych
+  └── medicine.txt      # Plik z danymi

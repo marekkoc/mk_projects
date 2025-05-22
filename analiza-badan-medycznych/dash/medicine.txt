@@ -1,0 +1,7 @@
+Date 				Dose nr.	City
+2023.08.04			1			Lodz
+2023.11.29			2			Bergen
+2024.05.10			3			Lodz
+2024.09.12			4			Lodz
+2024.12.19			5			Lodz
+2025.04.09			6			Bergen
