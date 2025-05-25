@@ -1,0 +1,9 @@
+Tests,Result,Units,Reference Range,,Date,Place,City
+Cholesterol całkowity,↑ 228,mg/dl,< 190,,2022.06.28,synevo,Lodz
+Cholesterol HDL,53.5,mg/dl,>=40,,2022.06.28,synevo,Lodz
+Nie-HDL,174.7,mg/dl,< 145/130/100,,2022.06.28,synevo,Lodz
+Cholesterol LDL,148,mg/dl,< 116/100/70/55/40,,2022.06.28,synevo,Lodz
+Triglicerydy,134,mg/dl,< 150,,2022.06.28,synevo,Lodz
+ALT,25,U/l,< 41,,2022.06.28,synevo,Lodz
+AST,23,U/l,< 37,,2022.06.28,synevo,Lodz
+Glukoza,96,mg/dl,70 — 99,,2022.06.28,synevo,Lodz

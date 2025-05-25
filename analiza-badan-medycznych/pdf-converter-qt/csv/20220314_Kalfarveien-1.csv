@@ -1,0 +1,33 @@
+Tests,Result,Reference Range,Units,Date,Place,City
+B-SR,5,,,2022.03.09,Kalfarveien 20,Bergen
+B-Hemoglobin,14.4,13.4 - 17.0,,2022.03.09,Kalfarveien 20,Bergen
+Ery-MCV,91,82 - 98,,2022.03.09,Kalfarveien 20,Bergen
+Ery-MCH,31,27 - 33,,2022.03.09,Kalfarveien 20,Bergen
+B-Leukocytter,5.5,4.1 - 9.8,,2022.03.09,Kalfarveien 20,Bergen
+B-Nøytrofile granulocytter,3.4,1.8 - 6.9,,2022.03.09,Kalfarveien 20,Bergen
+B-Lymfocytter,1.4,1.2 - 3.1,,2022.03.09,Kalfarveien 20,Bergen
+B-Monocytter,0.45,0.28 - 0.90,,2022.03.09,Kalfarveien 20,Bergen
+B-Eosinofile granulocytter,0.2,< 0.5,,2022.03.09,Kalfarveien 20,Bergen
+B-Basofile granulocytter,0.03,< 0.10,,2022.03.09,Kalfarveien 20,Bergen
+P-Homocystein,13.0,< 15.0,,2022.03.09,Kalfarveien 20,Bergen
+P-Vit B12. total (Kobalamin),570,175 - 700,,2022.03.09,Kalfarveien 20,Bergen
+P-Vit. B9 (Folsyre),6.5,> 10.0,,2022.03.09,Kalfarveien 20,Bergen
+P-Ferritin,83,34 - 300,,2022.03.09,Kalfarveien 20,Bergen
+P-CRP,< 1,< 5,,2022.03.09,Kalfarveien 20,Bergen
+P-Kreatinin,77,60 - 105,,2022.03.09,Kalfarveien 20,Bergen
+Nyre-estimert GFR CKD-EPI Kreatinin (overfl.=1.73m2),105,,,2022.03.09,Kalfarveien 20,Bergen
+S-Natrium,140,137 - 145,,2022.03.09,Kalfarveien 20,Bergen
+S-Kalium,4.2,3.5 - 5.0,,2022.03.09,Kalfarveien 20,Bergen
+P-Kalsium,2.45,2.20 - 2.55,,2022.03.09,Kalfarveien 20,Bergen
+P-ALAT,26,10 - 70,,2022.03.09,Kalfarveien 20,Bergen
+P-ALP,70,35 - 105,,2022.03.09,Kalfarveien 20,Bergen
+P-GT,27,15 - 115,,2022.03.09,Kalfarveien 20,Bergen
+P-Albumin,47,39 - 48,,2022.03.09,Kalfarveien 20,Bergen
+P-Kolesterol,6.1,3.3 - 6.9,,2022.03.09,Kalfarveien 20,Bergen
+P-HDL-kolesterol,1.6,0.8 - 2.1,,2022.03.09,Kalfarveien 20,Bergen
+P-LDL-kolesterol,4.2,1.8 - 5.7,,2022.03.09,Kalfarveien 20,Bergen
+P-Triglyserid,1.20,0.45 - 2.60,,2022.03.09,Kalfarveien 20,Bergen
+P-PSA,0.3,< 4.0,,2022.03.09,Kalfarveien 20,Bergen
+P-TSH,0.86,0.40 - 4.50,,2022.03.09,Kalfarveien 20,Bergen
+B-HbA1c,34,,,2022.03.09,Kalfarveien 20,Bergen
+P-MMA (Metylmalonsyre),0.12,< 0.26,,2022.03.09,Kalfarveien 20,Bergen

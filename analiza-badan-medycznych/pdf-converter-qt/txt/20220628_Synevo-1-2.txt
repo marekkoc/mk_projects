@@ -1,0 +1,14 @@
+%Date: 2022.06.28
+%Place: synevo
+%City: Lodz
+
+
+%%Tests 			|	Result	|	Units		|Reference Range	|
+Cholesterol całkowity	|	↑ 228		|	mg/dl		|	< 190		|
+Cholesterol HDL		|	53.5		|	mg/dl		|	>=40		|
+Nie-HDL			|	174.7		|	mg/dl		|< 145/130/100	|
+Cholesterol LDL		|	148		|	mg/dl		|< 116/100/70/55/40|
+Triglicerydy		|	134		|	mg/dl		|	< 150		|
+ALT				|	25		|	U/l		|	< 41		|
+AST				|	23		|	U/l		|	< 37		|
+Glukoza			|	96		|	mg/dl		|	70 — 99	|

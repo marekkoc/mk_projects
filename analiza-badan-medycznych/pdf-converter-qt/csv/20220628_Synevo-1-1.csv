@@ -1,0 +1,27 @@
+Tests,Result,Reference Range,Units,Date,Place,City
+Krwinki białe (WBC),5.40*10**3,4.40 — 11.30,1/µl,2022.06.28,synevo,Lodz
+Krwinki czerwone (RBC),4.74*10**6,4.00 — 5.60,1/µl,2022.06.28,synevo,Lodz
+Hemoglobina,14.5,12.8 — 17.2,g/dl,2022.06.28,synevo,Lodz
+Hematokryt,42.6,38.0 — 49.0,%,2022.06.28,synevo,Lodz
+MCV,89.9,80.0 — 100.0,fl,2022.06.28,synevo,Lodz
+MCH,30.6,27.5 — 34.0,pg,2022.06.28,synevo,Lodz
+MCHC,34.0,32.6 — 36.4,g/dl,2022.06.28,synevo,Lodz
+Płytki krwi,241*10**3,150 — 400,1/µl,2022.06.28,synevo,Lodz
+RDW-SD,↑	44.4,35.1 — 43.9,fl,2022.06.28,synevo,Lodz
+RDW-CV,13.3,11.6 — 14.4,%,2022.06.28,synevo,Lodz
+PDW,13.9,9.8 — 16.1,fl,2022.06.28,synevo,Lodz
+MPV,11.3,9.4 — 12.6,fl,2022.06.28,synevo,Lodz
+P-LCR,35.9,19.2 — 47.0,%,2022.06.28,synevo,Lodz
+PCT,0.27,0.16 — 0.35,%,2022.06.28,synevo,Lodz
+PCT neutrocytów,55.6,34.0 — 67.9,%,2022.06.28,synevo,Lodz
+PCT limfocytów,30.7,21.8 — 53.1,%,2022.06.28,synevo,Lodz
+PCT monocytów,9.1,5.3 — 12.2,%,2022.06.28,synevo,Lodz
+PCT eozynocytów,3.7,0.8 — 7.0,%,2022.06.28,synevo,Lodz
+PCT bazocytów,0.7,0.2 — 1.2,%,2022.06.28,synevo,Lodz
+PCT niedojrzałych granulocytów (IG),0.20,0.00 — 0.62,%,2022.06.28,synevo,Lodz
+Liczba neutrocytów,3.00*10**3,1.80 — 7.70,1/µl,2022.06.28,synevo,Lodz
+Liczba limfocytów,1.66*10**3,1.35 — 3.70,1/µl,2022.06.28,synevo,Lodz
+Liczba monocytów,0.49*10**3,0.20 — 0.80,1/µl,2022.06.28,synevo,Lodz
+Liczba eozynocytów,0.20*10**3,0.05 — 0.50,1/µl,2022.06.28,synevo,Lodz
+Liczba bazocytów,0.04*10**3,< 0.10,1/µl,2022.06.28,synevo,Lodz
+Liczba niedojrzałych granulocytów (IG),0.01*10**3,0.00 — 0.04,1/µl,2022.06.28,synevo,Lodz

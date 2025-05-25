@@ -1,37 +1,38 @@
-# Date: 2022.03.09
-# Place:  Kalfaret Legesenter DA - Kalfarveien 20, 5018 BERGEN 
+%Date: 2022.03.09
+%Place:  Kalfarveien 20
+%City: Bergen
 
-Tests 				|	Result		|	Reference Range 	| Units
-B-SR				|	5		|	
-B-Hemoglobin		|	14,4		|	13,4 - 17,0		|
-Ery-MCV			|	91		|	82 - 98		|
-Ery-MCH			|	31		|	27 - 33		|
-B-Leukocytter		|	5,5		|	4,1 - 9,8		|
-B-Nøytrofile granulocytter	|	3,4		|	1,8 - 6,9		|
-B-Lymfocytter		|	1,4		|	1,2 - 3,1		|
-B-Monocytter		|	0,45		|	0,28 - 0,90		|
-B-Eosinofile granulocytter |	0,2		|	< 0,5			|
-B-Basofile granulocytter	|	0,03		|	< 0,10		|
-P-Homocystein		|	13,0		|	< 15,0		|
-P-Vit B12, total (Kobalamin) | 	570		|	175 - 700		|
-P-Vit. B9 (Folsyre)		|	6,5		|	> 10,0		|
-P-Ferritin			|	83		|	34 - 300		|
-P-CRP				|	< 1		|	< 5			|
-P-Kreatinin			|	77		|	60 - 105		|
-Nyre-estimert GFR CKD-EPI Kreatinin (overfl.=1,73m2) | 105 |	|	|
-S-Natrium			|	140		|	137 - 145		|
-S-Kalium			|	4,2		|	3,5 - 5,0		|
-P-Kalsium			|	2,45		|	2,20 - 2,55		|
-P-ALAT			|	26		|	10 - 70		|
-P-ALP				|	70		|	35 - 105		|
-P-GT				|	27		|	15 - 115		|
-P-Albumin			|	47		|	39 - 48		|
-P-Kolesterol			|	6,1		|	3,3 - 6,9		|
-P-HDL-kolesterol		|	1,6		|	0,8 - 2,1		|	
-P-LDL-kolesterol		|	4,2		|	1,8 - 5,7		|
-P-Triglyserid			|	1,20		|	0,45 - 2,60		|
-P-PSA				|	0,3		|	< 4,0			|
-P-TSH				|	0,86		|	0,40 - 4,50		|	
-B-HbA1c			|	34		|				|
-P-MMA (Metylmalonsyre)	|	0,12		|	< 0,26		|
+%% Tests 				|	Result	|	Reference Range 	| Units
+B-SR					|	5		|				|
+B-Hemoglobin			|	14.4		|	13.4 - 17.0		|
+Ery-MCV				|	91		|	82 - 98		|
+Ery-MCH				|	31		|	27 - 33		|
+B-Leukocytter			|	5.5		|	4.1 - 9.8		|
+B-Nøytrofile granulocytter	|	3.4		|	1.8 - 6.9		|
+B-Lymfocytter			|	1.4		|	1.2 - 3.1		|
+B-Monocytter			|	0.45		|	0.28 - 0.90		|
+B-Eosinofile granulocytter 	|	0.2		|	< 0.5			|
+B-Basofile granulocytter	|	0.03		|	< 0.10		|
+P-Homocystein			|	13.0		|	< 15.0		|
+P-Vit B12. total (Kobalamin) 	| 	570		|	175 - 700		|
+P-Vit. B9 (Folsyre)		|	6.5		|	> 10.0		|
+P-Ferritin				|	83		|	34 - 300		|
+P-CRP					|	< 1		|	< 5			|
+P-Kreatinin				|	77		|	60 - 105		|
+Nyre-estimert GFR CKD-EPI Kreatinin (overfl.=1.73m2)| 105 |			|
+S-Natrium				|	140		|	137 - 145		|
+S-Kalium				|	4.2		|	3.5 - 5.0		|
+P-Kalsium				|	2.45		|	2.20 - 2.55		|
+P-ALAT				|	26		|	10 - 70		|
+P-ALP					|	70		|	35 - 105		|
+P-GT					|	27		|	15 - 115		|
+P-Albumin				|	47		|	39 - 48		|
+P-Kolesterol			|	6.1		|	3.3 - 6.9		|
+P-HDL-kolesterol			|	1.6		|	0.8 - 2.1		|
+P-LDL-kolesterol			|	4.2		|	1.8 - 5.7		|
+P-Triglyserid			|	1.20		|	0.45 - 2.60		|
+P-PSA					|	0.3		|	< 4.0			|
+P-TSH					|	0.86		|	0.40 - 4.50		|
+B-HbA1c				|	34		|				|
+P-MMA (Metylmalonsyre)		|	0.12		|	< 0.26		|
 
