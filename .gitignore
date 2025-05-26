@@ -1,6 +1,10 @@
 
+# 2025.05.25 - mk
 # wszytkie katalogi wyniki
 __wyniki*__
+pdf/
+txt/
+csv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
