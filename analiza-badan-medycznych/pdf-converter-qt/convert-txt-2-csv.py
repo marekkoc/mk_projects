@@ -85,6 +85,30 @@ def parse_text_file_to_dataframe(file_path):
         # Zwróć pusty DataFrame jeśli nie ma danych
         return pd.DataFrame()
 
+def replace_comma_with_dot(df, numeric_columns=None):
+    """
+    Zamienia przecinki na kropki w kolumnach numerycznych.
+    
+    Args:
+        df (pd.DataFrame): DataFrame do przetworzenia
+        numeric_columns (list): Lista kolumn do przetworzenia (domyślnie 'Result')
+        
+    Returns:
+        pd.DataFrame: DataFrame z zamienionymi przecinkami na kropki
+    """
+    if numeric_columns is None:
+        numeric_columns = ['Result', 'Reference Range']
+    
+    df_clean = df.copy()
+    
+    for col in numeric_columns:
+        if col in df_clean.columns:
+            # Zamień przecinki na kropki
+            df_clean[col] = df_clean[col].astype(str).str.replace(',', '.')
+    
+    return df_clean
+
+
 def clean_numeric_values(df, numeric_columns=None):
     """
     Czyści wartości numeryczne w DataFrame, usuwając znaki jak ↑, ↓ itp.
@@ -112,6 +136,7 @@ def clean_numeric_values(df, numeric_columns=None):
 # Przykład użycia:
 if __name__ == "__main__":
 
+
     parser = argparse.ArgumentParser(
         description='Konwertuje pliki TXT do CSV z obsługą metadanych.',
         epilog='''
@@ -122,8 +147,16 @@ Przykład użycia:
     parser.add_argument('--verbose', action='store_true',
                       help='Wyświetl szczegółowe informacje o procesie konwersji')
     args = parser.parse_args()
+
+    # Sprawdź czy argument --file zawiera rozszerzenie i usuń je jeśli tak
+    if '.' in args.file:
+        original_file = args.file
+        file_name_stem = Path(args.file).stem
+        print(f"\nWykryto rozszerzenie w nazwie pliku.\nUsuwam rozszerzenie z '{original_file}' -> '{file_name_stem}'")
+    else:
+        file_name_stem = args.file
     
-    file_name_stem: str = args.file
+    # file_name_stem: str = args.file
     VERBOSE: bool = args.verbose
 
     # Przykład użycia funkcji
@@ -156,6 +189,10 @@ Przykład użycia:
         # Oczyść wartości numeryczne ze znaków specjalnych np. ↑↓→←
         df_clean = clean_numeric_values(df)
         if VERBOSE: print("\tWartości numeryczne oczyszczone")
+
+        # Zamień przecinki na kropki w kolumnach numerycznych
+        df_clean = replace_comma_with_dot(df_clean)
+        if VERBOSE: print("\tPrzecinki zamienione na kropki")
         
         # Zapisz do CSV jeśli chcesz
         df.to_csv(csv_file_path, index=False)
