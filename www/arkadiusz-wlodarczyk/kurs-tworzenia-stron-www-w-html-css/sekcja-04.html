@@ -1,0 +1,133 @@
+
+ <h2>Sekcja 4: HTML podstawy (10-23, 15/1h16min.)</h2>
+ <a href="/">Główna</a><br><a href="#bottom">Dół</a> 
+
+
+<p>Cześć! <i><b>To jest moja</b></i> strona <i>domowa</i>.</p>
+
+<p>Tutaj pokażę Ci, żę jestem fajny i że mam wiele zalet, że warto ze mną pracować!!!</p>
+
+<p>Poznane tagi i skróty:
+    <ul>
+        <li> p - paragraf, akapit (12) </li>
+        <li> białe znaki (spacja, enter, tabulator) nie są interpretowane w liczbie większej niż 1 (tak jak w Latexie) (12)</li>
+        <li> i - italic (<11)</li>
+        <li> b - bold (<11)</li>
+        <li> ctrl+shift+P ->  Emmet: Wrap with abbreviation -> owijanie tekstu tagiem (11)</li>
+        <li> ctrl+shift+alt+e -> to samo co wyżej -> owijanie tekstu tagiem (11)</li>
+        </i>
+    </ul>
+</p>
+
+<p><b>13. Tag pusty vs. tag z początkiem:</b><br>Są tagi które nie potrzebują zakończenia, np: <br>
+br : break, złamanie wiersza</p>
+
+<p><b>14. Atrybuty <i>title</i> i <i>lang</i></b>:<br> Atrybut to dodatkowa informacja o tagu. 
+    <ul>
+        <li>Atrybut <b>br</b> to jest złamanie wiersza, linii.</li>
+        <li>Atrybut <b>title</b>. Ten atrybut jest do jakiegoś/dowolnego tagu, np. <b title="od 2009 do 2019">adiunkt</b>
+            Gdy najedziemy kursorem na tekst otoczony tagiem z atrubutem <i>title</i> to wartość tego atrubutu 
+            wyświetli się pod myszką, czyli zostanie utworzony tzw. <b><i>dymek</i></b></li>
+        <li>Atrybut <b>lang</b>: określa język: np język polskiL w tagu html: lang="pl"</li>
+        <li><b>Sktót</b> dodający atrybut z <i><b>Emmet</b></i> Możemy wpisać w okinie <b title="to jest dymek">Emmet</b> np. b[title]. Wewnątrz tagu wciskamy <i>Ctrl+spacja</i> wtedy pojawia się sugesita wielu atrybutów. Ten dymek wpisujem do 
+        <i title="ctrl+shift+alt+e">Emmet Wrap abbreviation, czyli w moim przypadku dla skrótów </i>
+        <ol>
+            <li lang="pl" title="polski">To jest tekst w języku polskim.</li>
+            <li lang="no" title="norweski">Dette er tekst på norsk.</li>
+            <li lang="en" title="angielski">This is text in English.</li>
+        </ol></li>            
+        <li>Można wpisać tag z atrubutem i powielić go kilka razy: <b>p[title]*3</b></li>   
+    </ul>
+</p>
+
+<p title="2025.01.24">
+    <b>15. Neutralny tag: span.</b><br>Ten tag nic nie robi. Z tego tagu korzysamy gdy
+    chcemy dodać jakiś atrubut, ale nie chcemy korzystać z jakiegoś tagu, który ma przypisaną funkcję:
+    np z <b></b>. Nie chcemy pogrubiać, ale chcemy dodać atrybut <i>title</i>, czyli dymek. Tak jak na tym 
+    przykładzie: <span title="dymek1">dymek1</span>, <span title="dymek2">dymek2</span>, 
+    <span title="dymek3">dymek3</span>. Czyli span jest <i>neutralnym</i> tagiem, który nie zmienia zawartości.
+    </p>
+
+<p title="2025.01.24">
+    <b>16. Ćwiczenie: Stwórz szablon strony i...</b><br>
+</p>
+
+<p title="2025.01.24">
+    <b>17. Instalowanie rozszerzeń w VSC: Auto rename tag</b> <br>
+    Rozszerzenie-> <b>Auto rename tag</b>. Rozszerzenie zmienia wybrany tag zarówno otwierający jak i zamykający.
+    Nie trzeba zmieniać osobno tagu otwirającego i zamykającego. Robi się to automatycznie. 
+</p>
+
+<p title="2025.01.24">
+    <b>18. Spis rozszerzeń używanych w kursie!</b><br>
+    <ol>
+        <li><b>HTML:</b>
+            <ul>
+                <li>Lekcja 16: Auto Rename Tag</li>
+                <li>Lekcja 27: Live Server</li>
+            </ul></li>
+        <li><b>CSS:</b>
+            <ul>
+                <li>Lekcja 63: HTML CSS Support</li>
+                <li>Lekcja 63: CSS PEAK</li>
+            </ul></li>
+        <li><b>JavaScript:</b>
+            <ul>
+                <li> ESLint - podpowiedzi odnośnie kodu</li>
+            </ul></li>
+        <li><b>Edytor:</b>
+            <ul>
+                <li>Lekcja 30: vscode-icons</li>
+                <li>Prettier - automatyczne upiększanie kodu</li>
+            </ul></li>               
+    </ol>           
+</p>
+
+<p title="2025.01.25"><b>19. Atrybut <i>style</i> - zmiana koloru tła strony - teoria kolorów -> WAŻNA LEKCJA1!!!</b><br>
+    <ol>
+        <li>Jak zmienić <b>tło strony:</b> Tag <b>body</b> odpoiwada za wygląd strony www i w nim stosujemy atrybut <b>bgcolor</b></li>
+        <li>Atrybut <b>bgcolor (jest przestażały): </b> Kolory można wziąć ze strony <a href="https://www.w3schools.com/colors/colors_names.asp">HTML color names </a></li>
+        <li>Atrybut <b>style</b>.</li>
+    </ol>
+</p>
+
+<!-- 20 -->
+<p title="2025.01.25"><b>20. Dodawanie zdjęcia na stronę?</b> <br>
+    <ol>
+        <li><b>Jak dodać zdjęcie na stronę?</b><br>Tag img</b>. Tag <i>img</i> jest jednym z tagów pustych, takich jak <b>br</b>, czyli ten tag nie ma zakończenia. 
+        Używamy <b>atrybutu src</b>. </li>
+        <li>Jak działa <b>atrybut src</b>?</li>
+        <li>Jak działa <b>atrybut alt</b>?</li>
+        <li><b>Jak nazwać zdjęcia?</b><br>Zarówno nazwa zdjęcia (bez spacji, bez wielkich liter, z myślnikiem) jak i nazwaz zdjęcia w atrubicie <i>alt</i> są
+        używane przez algorytmy Googla do pozycjonowania strony. Atrybuty <i>height</i> i <i>widht</i> określają puste miejsce zarezerwowane na stronie
+        gdy wystąpi błąd wczytywania obrazka, czyli gdy będzie "uruchomiony" atrybut <i>alt</i>. </li>
+        <li><b>Wyświetlanie obrazka w VSC</b><br><i>Ctrl+klik</i>.</li>
+        <li><b>Skalowanie obrazka</b><br>Jeśli podamy tylko jeden atrybut określający rozmiar obrazka np. <b>width</b>, a nie podamy <b>height</b> oraz gdy wartość <b>width</b> będzie różna od 100%
+        to obrazek (jego wysokość) zostanie automatycznie przeskalowana do podanej wartośći szerokości aby zachować oryginalne proporcje. </li>            
+    <img src="figs/david-by-michal-aniol.jpg" alt="Zdjęcie:  Rzeźba Davida wykonana przez Michała Anioła. skala=100%" width="640" height="938">
+    <img src="figs/david-by-michal-aniol.jpg" alt="Zdjęcie:  Rzeźba Davida wykonana przez Michała Anioła. skala=50%" width="320">
+    <img src="figs/david-by-michal-aniol.jpg" alt="Zdjęcie:  Rzeźba Davida wykonana przez Michała Anioła. skala=25%" width="160">
+        <li><b>Rozmiar obrazka vs. wczytywanie vs. wyświetlanie</b><br> Lepiej zmniejszyć oryginalny obrazek niż go skalować, ponieważ gdy obrazej jest mniejszy strona www 
+        wczytuje się szybciej. Gdy strona wczytuje się szybcieje, to jest lepiej pzycjonowana. Zatem zamiast skalować obrazek, lepiej zmniejszyć jego rozmiar.</li>
+    </ol>
+</p>
+
+<p title="2025.01.25"><b>21. Skąd ściągnąć obrazki na stronę?</b><br>
+    <ol>
+        <li> <a href="http://pexels.com" h="">pexels.com</a></li>
+        <li> <a href="http://pixabay.com" hre="">pixabay.com</a></li>
+        <li> <a href="http://unsplash.com">unsplash.com</a></li>
+    </ol>
+</p>
+
+<p title="2025.01.25"><b>22. Pobieranie wysokości i szerkokości zdjęcia do edytora VCS</b><br>
+    Gdy jestśmy w tagu obrazka, wciskamy <i>F1</i> lub <i>Ctrl+Shift+P</i> i wpisujemy <b>Update image size</b>. Należy pamiętać, że można do tego skrutu przypisać
+    wybrany skrót klawiszowy, jedna jest on dosyć rzadko używany.
+    <img src="figs/bergen-1.jpg" alt="To jest zdjęcie Bergen! Widok z Floyen." width="640" height="427">
+</p>
+
+<p title="2025.01.25"><b>Ścieżka do obrazka znajdującego się w innym folderze!</b><br>            
+</p>
+
+    <a name="bottom"></a>
+    <a href="#top">Top</a>

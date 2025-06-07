@@ -1,0 +1,99 @@
+<h2>Sekcja 7: HTML - Linki (36-40, 6/37 min)</h2>
+<a href="/">Główna</a><br><a href="#bottom">Dół</a> 
+
+
+<!-- 36 -->
+<p title="2025.02.02"><b>36. Odnośniki - linki wewnętrzne</b><br>
+<ol>
+    <li>Aby utworzyć link, musimy zastosować <b>kotwicę ('A'nchor)</b> na tekst. </li>
+    <li>Kotwicę rzucamy za pomocą tagów <b>&lt;a&gt;tekst wewnątrz kotwicy&lt;/a&gt;</b></li>
+    <li>Następnie do tej kotwicy musimy dodać odwołanie, czyli powiedzieć gdzie mamy się dowołać (przenieść)
+        gdy ktoś kliknie na tę kotwicę. To robimy za pomocą <b>atrybutu href</b>.
+    </li>
+    <li><b>Ctrl+spacja</b> podpowiada nam (nawet lokalnie) gdzie możemy się odnieść.</li>
+    <li>Np. mój <a href="figs/david-by-michal-aniol.jpg">obrazek</a></li>
+    <li>Możemy kotwice nałożyć na dowolny element nawet na obrazek. Wtedy pod obrazkiem będzie znadkował
+        się nasz link, czyli gdy klikniemy w obrazek to nas gdzieś przeniesie:</li>
+        <a href="http://www.wp.pl"><img src="figs/bergen-1.jpg" alt="Widok z Floyen" width="10%"></a>
+    <li>Linkowanie z podstrony w kierunku strony głownej. Możemy zastosować "../" ale trzeba 
+        pamiętać, że <b>folder główny jest zawsze jako '/' (slash) </b>. Zatem wystarczy shlash, nie
+        trzeba stosować scieżki która wychodzi do góry "../../../"
+    </li>
+    <li>Zadanie: stworzyć <b>logo strony</b> np za pomocą kreatorów loga, lub zapygać google jak stworzyć logo. I zrobić tak, aby
+    <b>kliknięcie w logo zawsze prowadziło do głowńej strony.</b></li>
+</ol>
+</p>
+
+
+<!-- 37 -->
+<p title="2025.02.02"><b>37. Linki zewnętrzne - _blank</b><br>
+    <ol>
+        <li>Gdy podajemy linki do zewnętrznych stron musimy uruchomić/napisać <b>http://</b> lub <b>https://</b> protokół łączenie się do zewnętrznych stron
+            internetocych   <a href="https://google.com">Google</a></li>
+        <li>Czyli musimy dodać <b>protokół</b> oraz nazwę strony do której wysyłamy.</li>
+        <li>Dodatkowy argument: <b>"target = _blank"</b> czyli
+            <b>otwiramy nową zakładkę</b> <a href="https://google.com" target="_blank">Google</a></li>
+        <li>Inny sposób na otwiranie w <b>nowej zakładce</b> to zastosowanie <b>środkowego przycisku myszy!</b></li>
+        <li>Comyślnie <b>"target=_self"</b> czyli zakładka aktualna.</li>
+        <li><b>a:</b> link wewnętrzn <b>&lt;a href="">&lt;/a></b></li>
+        <li><b>a:link</b> link zewnętrzny <b>&lt;a href="http://">&lt;/a></b>  </li>
+        <li><b>a:blank</b> rel okresla relacje pomiędzy moją aktualną stroną, a storną do której kogoś odsyłamy
+            <b>&lt;a href="http://" target="_blank" rel="noopener noreferrer">&lt;/a></b> To jest bardzo wazne, bo ktoś może 
+            podmienić moją stronę na inną, gdy nie bedzie tych parametrów!!!! Chociaż nowe preglądarki to zabezpieczenie mają wbudowane 
+            automatycznie.  </li>
+    </ol>
+</p>
+
+
+<!-- 38 -->
+<p title="2025.02.02"><b>38. Etykiety - przeskakiwanie na stronie!</b><br>
+<ol>
+    <li>Linkowanie do wybranego miejsca na stronie internetowej.</li>
+    <li>Etykiety są powiązane ze <b>znakiem #</b></li>
+    <li>Podglądanie kodu strony: <b><i>Ctrl+Shift+I</i></b>. <b>Inspektor</b> - wybieramy blok/część strony www.
+        Szukamy <b>&lt;a name=565656></b> -- i ta liczba to jest nasza etykieta. Ona pojawia się w adresie strony
+        po <b>znaku #</b></li>
+    <li>Aby skakać po stronie musimy mieć na stronie dużo tekstu, aby przłącząć się/skakać pomiędzy odpowiednimi miejscami.</li>
+    <li>Gdy robimy skok to stosujemy <b>kotwicę czyli &lt;a href="#gora">Do góry&lt;/a></b> i nazwę etykiety, którą wcześniej
+        należy zdefioniować.</li>
+    <li><b>Tworzenie eytkiety: &lt;a name="Lekcja 20">Tu jest tytul lekcji 20 &lt/a></b></li>
+    <li>Etykiety możemy tworzyć w dowolnym miejscu strony.</li>
+    <li><b>Innym sposobem jest tworzenie identyfikatorów id="lekcja20"</b>. Identyfikator działa w każdym tagu.
+        <b>&lt;p id="lekcja20"> tresc paragrafu &lt;/p></b> </li>
+    <li>Wersja z <b>name</b> działa również w starych przeglądarkach, jest bardziej ogólna. Wersja z <b>id</b>ma swoje ograniczenia,
+    w id może być tylko jedna wartość co w przyszłości (CSS) okaże się ograniczeniem.</li>
+    <li>Identyfinator nie może zaczynać się od licz. Musi zaczynać się od litery. </li>
+    <li>Etykieta <b>#</b> lub <b>#top</b> jest zarezerowana i zaprogramowana aby przejść do samej góry strony. </li>
+    <li><b>Łagodne przechodznie pomiędzy eytkietami:</b> Możemy to uzyskać za pomocą <b>JS</b> lub <b>CSS</b>. Teraz zrobimy
+        krótkie wporwadzenie do CSS. <b> &lt;html sytle="scroll-behavior: smooth"> TRESC STRONY &lt;/html></b></li>
+    <li>Ten argument <b>style</b> to jest <b>styl CSS</b>, zazwyczaj te style CSS definiuje się w osobnym pliku.</li>
+</ol></p>
+
+
+<!-- 39 -->
+<p title="2025.02.02"><b>39. Link: email oraz tag &lt;address></b><br>
+    <ol>
+        <li><b>Link do emaila</b>. Wpisujemy email: a nastepnie podświetlamy i umieszczamy w tagu "a"</li>
+        <li> &lt;a href="mailto:wik@wp.pl">wik@wp.pl&lt;/a> </li>
+        <li> <a href="mailto:wik@wp.pl">wik@wp.pl</a></li>
+        <li> Za pomocą Emmeta: a:mail </li>
+        <li> <b>Domyślny temat emaila:</b> wstawiamy znak zapytania <b> ?subject=Tresc pytania</b> a potem temat </li>
+        <li> <a href="mailto:wik@wp.pl?subject=Pytanie o cene">wik@wp.pl</a></li>
+        <li>Gdy email umieścimy w tagu <b>&lt;address></b> to Google będzie wiedział że wewnątrz tego tagu jest 
+            adres email, a nie, że to jest jakaś zwykła treść.</li>
+        <li> <address><a href="mailto:wik@wp.pl">wik@wp.pl</a></address> </li>
+    </ol>
+</p>
+
+<!-- 40 -->
+<p title="2025.02.03"><b>40. Link - telefon</b><br>
+<ol>
+    <li><a href="tel:+48505090919 ">505 09 09 19</a></li>
+    <li>a:tel </li>
+    <li><a href="tel:+48505090919">telefon</a></li>
+    <li></li>
+    <li></li>
+</ol></p>
+
+<a name="bottom"></a>
+<a href="#top">Top</a>

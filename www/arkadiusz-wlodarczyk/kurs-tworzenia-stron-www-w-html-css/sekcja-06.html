@@ -1,0 +1,75 @@
+<h2 name="s6">Sekcja 6: HTML - Listy (32-35, 5/28 min)</h2>
+<a href="/">Główna</a><br><a href="#bottom">Dół</a> 
+
+
+<!-- 32 -->
+<p title="2025.01.30"><b>32. Lista &lt;ul> vs. &lt;ol></b><br>
+    <ul>
+        <li>list item: &lt;li>;</li>
+        <li>Aby zmienić kolejność elementów <i>list item</i> w VSC możemy użyć skrótu: <b><i>Alt+strzałka w górę/dół</i></b></li>
+        <li>Można zmienić kształt znaczników, wielkość wcięcia i wszytkie inne parametry, ale teraz nie robi
+            się tego z poziomu HTML, tylko teraz robi to się  z posiomu <b>CSS</b>. Można to zrobić, z poziomu HTML,
+            ale lepiej to zrobić z poziomu CSS.</li>
+        <li>Teraz poznajemu <b>tagi</b>, czyli to w jakis sposób można zmienić to w jaki sposób ma być sformatowany 
+            wygląd strony. <b>Tagi służą do tego aby oznaczyć tekst dodatkowo.</b>np. p-to pragraf czyli jakiś tekst,
+            ul - to wypunktowanie itp..</li>                
+    </ul>         
+</p>
+
+
+<!-- 33 -->
+<p title="2025.01.31"><b>32. EMMET: triki z wykazami list.</b><br> 
+    <ol>
+        <li> znak <b>&gt;</b> in EMMET: Gdy chcemy otworzyć kilka tagów po kolei, np tak <b>ul</b> a wewnątrz niego
+            tagl <b>li</b> to możemy to zrobić jednocześnie wpisująć <b>ul>li</b>. Gdy pojawi się pomoc w 
+            menu konteksowym domyślnie jest ono "nierozwinięte". <b>Aby rozwinąć menu kontekstowe</b> wciskami
+            <b><i>CTRL + spacja</i></b>. Wtedy wyświetli się podgląd, jak to będzie wyglądać w rzeczywistości.
+            Możemy się <b>cofnąć</b> przy pomocy <b>Ctrl + z</b>. </li>
+        <li>Znamy już skrót <b>p*3</b> aby uzyskać 3 akapity. Podobnie jest w tym wypadku. Gdy chcemy stworzyć
+            3 podpunkty to wciskamy <b> ul>li*3 </b> </li>
+        <li>Gdy utworzymy listę to domyślnie jest tam podświetlona na szaro taka belka (tylko po utworzeniu). Możemy <b>
+            przeskakiwać pomiędzy belkami</b> za pomocą kursora.</li>
+        <li><i><b>SHIFT + Alt + strzałka</b></i> kopiowanie danej linii w górę/dół</li>
+        <li><i><b>Alt + myszka</b></i> wiele kursorów - możmy za pomocą strzałki stworzyć wiele kursorów i w tych wszystkich
+            liniach pisać jednocześnie.</li>
+        <li><b>[] vs {}</b>. Przy tworzeniu zagnieżdzonego tagu <b>ul>li{treść tag}</b>
+            możemy wpisać  treść danego tagu. 
+            Natomiast za pomocą nawiasku kwadratowego [] nadajemy dodaktowy atrubut:
+                &lt;li[title="dymek"]&gt;{element listy}. Czyli <b>[] tworzy atrybuty</b> a 
+                <b>{} tworzy treść.</b></li>
+        <li><b>$</b> dolar to automatyczne zwiększanie licznika: <b>ul>li{Sample$}</b></li>
+        <li><i>CTRL + K +S</i> skróty w VSC - kasowanie linii</li>
+        <li><b>dokumentacja EMMET: <a href="https://docs.emmet.io/cheat-sheet">docs.emmet.io/cheat-sheet</a></b></li>
+        <li><b>Skróty VSC: <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">skróty VSC</a></b></li>
+    </ul>
+    </ol>
+</p>
+
+
+<!-- 34 -->
+<p title="2025.01.31"><b>34. &lt; dl &gt; lista definicji</b><br>
+<ol>
+    <li>Tagi: <b>dl, dt, dd</b> - definition list, definition term (nazwa do zdefioniowania), definition description (opis) </li>
+    <li>Tego tagu używamy do tworzenia listy składającej się z wyrażeń z definicjami.</li>
+    <li>Strona z fajnymi przykładami tagów:
+        <b><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">MDN Web Docs: Mozilla</a></b></li>
+</ol>
+<dl>
+    <dt>Szkoła
+        <dt>Miejsce do uczenia gówniaków</dt>
+    </dt>
+</dl>    
+</p>
+
+
+<!-- 35 -->
+<p title="2025.01.31"><b>35. EMMET - tworzenie równoległych elementów +, grupowanie()</b><br>
+    <ol>
+        <li>Dodawanie tagów napirzemiennie: <b> b+p </b>, my potrzebujemy <b> dl>dt+dd </b> Te tagi są obok siebie,
+        są na tym samy poziomie okrśla się to jako <b>rodzeństwo</b>.</li>
+        <li>Grupownie tagów które nasępnie możemy przemnożyć: <b> dl>(dt+dd)*3 </b></li>
+    </ol>
+</p>
+
+<a name="bottom"></a>
+<a href="#top">Top</a>

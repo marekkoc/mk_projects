@@ -1,0 +1,122 @@
+<h2>Sekcja 5: HTML - ulepszenie dokumentu i edytora (24-31, 9/57 min)</h2>
+<a href="/">Główna</a><br><a href="#bottom">Dół</a> 
+
+
+<!--24-->
+<p title="2025.01.26"><b>24. Komentarze. Jak zobaczyć źródło każdej strony www?</b><br>
+    <ol>
+        <li>Skrót klawiszowy <b><i>Ctrl+U</i></b></li>
+        <li>Komentarze: <b>&lt;!-- komentarz --&gt;</b> </li>
+        <li>Szybkie komentowanie wybranego tekstu: <b><i>Ctrl+/</i></b></li>
+    </ol>
+</p>
+
+
+<!-- 25 -->
+<p title="2025.01.26"><b>25. Meta tagi</b><br>
+    <ol>
+        <li>Meta tagi są to dodatkowe informacje na temat naszej strony internetowej. Umieszczane są w sekcji <b>head</b>.</li>
+        <li>Meta tagi to np.: kto stworzył stronę internetową, opis, słowa kluczowe, </li>
+        <li>Tag <b>meta</b>. Jest to tak który nie ma zamknięcia (podobnie jak taki <b>br</b> i <b>img</b>). Zatem jest to <i>pusty tag</i>
+            i będziemy opisywać wszystko za pomocą atrybutów.</li>
+        <li>Atrybut <b><i>name</i></b>. Ten atrybut może mieć różne wartośći np. <b>author</b>, do tego atrubutu musimy dodać kolejny atrybut 
+        <b>content</b> w którym określimy wartość atrybuty <b>name</b>. </li>
+        <li><b> &lt;meta name="description" content=""&gt; </b> - opis strony internetowej. Opis wyśwetla się w wyszukiwarce pod adresem strony. 
+            Opis jest ważny, bo podczas wyszukiwania widzimy kilka pierwszych jego liniejek i wiem co jest na danej stronie. Opis może zostać 
+            "pobrany" z loswej częśći zawartości strony która losowa pasuje do wyszukiwanego zapytania, ale może też zostać pobrana ze mata tagu
+            description. Opis powinien mieć maksymalnie <b>150 znaków</b>. Ma być krótki i zwięzły. Ten opis to sugestia, nie zawsze zostanie uwzględniony
+            przez Google.</li>
+        <li> <b>&lt;meta name="keywords" content=""&gt;</b> - słowa kluczowe. Info głównie dla nas. Obecnie nie jest brane pod uwagę do pozycjonowania 
+            strony www przez google.</li>
+        <li> <b> &lt;meta name="robots" content="index, follow"&gt; </b> - co roboty googla mają zrobić z tą stroną? <b>index</b>
+            oznacza, żę mają zaindeksować czyli dodać do głownego spisu google (!!!), a <b>follow</b> oznacza żeby Google podążał
+            za linkami umieszczonymi na stronie www.To śa domyślne wartośći, i można tego nie dodwać. Inne opcje to:
+            <b>noindex</b> oraz <b>nofollow</b>. </li>
+        <li>Kolejność metatagów jest dowolna. Mają być w tagu <b>head</b>, przyjęło się że metatag <b>description</b> jest 
+            po tytule, bo od razu widać o czym jest strona. </li>
+        </ol>
+
+</p>
+
+
+<!-- 26 -->
+<p title"2025.01.27"><b>26. Poprawne kodowanie polskich znaków: UTF-8</b><br>
+    <ol>
+        <li>Gdy nie zakodujemy dobrze, to np. w starszych przeglądarkach mogą pojawić się problemy z interpretacją</li>
+        <li>Kodowanie <b>UTF-8</b>, jest to najpopularniejszy sposób <kodowania class=""></kodowania></li>
+        <li>Kodowanie wpisujemy w sekcji <b>head</b> nasępująco: <b>meta:utf</b> a potem edytor automatycznie nam
+            wstawia całą linię która wygłada tak: <b>&lt;meta http-equiv="Content-Type" content="text/html;charset=UTF-8"&gt;</b></li>
+        <li>powyższa składnia jest wspierana, również przez starsze przeglądarki. Nowe przeglądarki mogą mieć już 
+            uproszczoną wersję: <b>&lt;meta charset="UTF-8&gt;</b>
+        </li>
+    </ol>
+</p>
+
+
+<!-- 27 -->
+<p title="2025.01.27"><b>27. DOCTYPE - określamy typ dokumentu</b><br>
+<ol>
+    <li>Typ dokumentu powinniśmy określić u góry strony, aby ta strona była zgodna ze standardem. Stare przeglądarki
+        mogą mieć problem z określeniem dokkumenty gdy tego nie zrobimy. </li>
+    <li>Określnie typu dokumenutu: <b>&lt;!DOCTYPE html&gt;</b></li>
+    <li>Wcześniejsze typy dokumentów są określine na stronie <a href="https://www.w3schools.com/tags/ref_html_dtd.asp">The HTML Document Type</a>.
+    To jest bardzo fajna bo <b>zawiera wszystkie tagi dostępne w danej wersji HTMLa!!!</b></li>
+    <li>Warto stworzyć sobie szablon strony, który zawiera odpowiedni <b>head</b>, a potem wypełniamy go treścią.</li>
+</ol>
+</p>
+
+
+<!-- 28 -->
+<p title="2025.02.17"><b>28. LIVE server oraz automatyczne zapisywanie kodu w VSC.</b><br>
+    <ol>
+        <li>Potrzebujemy rozszerzenie: <b>Live server</b></li>
+        <li>Uruchamiamy to przez przycisk <b>GoLive</b> w dolnej belce po prawej stronie.</li>
+        <li>Aby uruchomić to w <b>innej przeglądarcze</b> zmieniamiy to w ustawiniach 
+            rozszerzenia-> <b>Custom browser</b></li>
+        <li>Zmiania częstotliwości automatycznego zapisywania: <b><i>Ctl+,</i></b>, przechodzimy do ustawien VSC. Wyszukujemy <b>auto save</b></li>
+    </ol>
+</p>
+
+
+<!-- 29 -->
+<p title="2025.01.27"><b>29. Encje - walidacja strony</b><br>
+    <ol>
+        <li><b>Encja</b> jest to nazwany znak do którego możemy się odwołać w inny sposób niż z klawaitury, np:
+        <ul>
+            <li> & - Shift + 7</li>
+            <li>&lt;  - & lt;</li>
+            <li>&quot - & quot</li>
+            <li>&apos - & apos</li>
+            <li>&amp - & amp</li>
+            <li>&nbsp; - non breaking space</li>
+        </ul></li>
+        <li>fajna strona do walidacji naszej strony lub kodu html: <a href="https://validator.w3.org">Markup Validation Service</a></li>
+        <li>strona z Encjami: <a href="https://www.w3schools.com/html/html_entities.asp">HTML Entities</a></li>
+        <li>gdy kodujemy stronę w <b>UTF-8</b> to możemy skopiować znak matematyczny zamiast wpisywać encję:£, ®, ̃ , ∅, ∜,∯  </li>
+    </ol>
+</p>
+
+
+<!-- 30 -->
+<p title="2025.01.27"><b>30. Poprawne nazwenictwo plików. Czemu strona główa nazywa się index.html?</b><br>
+    <ol>
+        <li>Strony nazywmy bez poliskich liter i z myślnikami.</li>
+        <li>Główna strona powinna nazywać się <b>index.html</b> </li>
+    </ol>
+</p>
+
+
+<!-- 31 -->
+<p title="2025.01.28"><b>31. Rozszerzenie VSC: icons - zmieniamy ikony by zwiększyć czytelność</b><br>
+<ol>
+    <li>Rozszerzenie <b>icon:</b>
+        <ul>
+            <li>Material Icon Theme,</li> 
+            <li>vscode-icons</li>
+        </ul>
+    </li>
+</ol>
+</p>
+
+    <a name="bottom"></a>
+    <a href="#top">Top</a>
