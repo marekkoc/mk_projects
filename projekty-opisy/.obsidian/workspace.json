@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "b336d5e519c4abe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8eb491f250c1ef9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea2571e9b3e38303",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "szyfrowanie-hasel.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "szyfrowanie-hasel"
+            }
+          },
+          {
+            "id": "25915dbcf01b298b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Porządkowanie dysku..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Porządkowanie dysku."
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e134a3045605804",
+    "type": "split",
+    "children": [
+      {
+        "id": "91b4cd6c2cedc93b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5cbed7e37ae18c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e9d87e5628b5d4d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "90f3f7eacbeb3c1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5
+  },
+  "right": {
+    "id": "ed1e016695835ccd",
+    "type": "split",
+    "children": [
+      {
+        "id": "49a8575bdeb3e6a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b71d41258baf5164",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "baza-danych-ksiazek/baza-danych-ksiazek-wyswietlanie-jednej-tabeli.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for baza-danych-ksiazek-wyswietlanie-jednej-tabeli"
+            }
+          },
+          {
+            "id": "56d87932a2135aa4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "baza-danych-ksiazek/baza-danych-ksiazek-wyswietlanie-jednej-tabeli.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from baza-danych-ksiazek-wyswietlanie-jednej-tabeli"
+            }
+          },
+          {
+            "id": "0a98c14dfc593296",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d88062dd31fa1b36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "baza-danych-ksiazek/baza-danych-ksiazek-wyswietlanie-jednej-tabeli.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of baza-danych-ksiazek-wyswietlanie-jednej-tabeli"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "25915dbcf01b298b",
+  "lastOpenFiles": [
+    "szyfrowanie-hasel.md",
+    "Porządkowanie dysku..md",
+    "Untitled.canvas",
+    "baza-danych-ksiazek/baza-danych-ksiazek-system-klas.md",
+    "money-manager-mk.md",
+    "baza-danych-ksiazek/baza-danych-ksiazek.md",
+    "wizualizacja-badan-medycznych.md",
+    "waga-dashbord-www.md",
+    "monitorowanie-cen-walut.md",
+    "wietrzenie-pomiar-sterowanie.md",
+    "baza-danych-ksiazek/baza-danych-ksiazek-wyswietlanie-wiele-tabel.md",
+    "baza-danych-ksiazek/baza-danych-ksiazek-wyswietlanie-jednej-tabeli.md",
+    "Netum-NT-1228BL/01-tryb-klawiatury.md",
+    "templates/notatka-ogolna.md",
+    "templates/algorytm-opis.md",
+    "templates",
+    "Netum-NT-1228BL"
+  ]
+}
